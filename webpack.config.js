@@ -1,3 +1,5 @@
+const babelMinify = require('babel-minify-webpack-plugin');
+
 module.exports = {
     entry: './src/index.js',
     output: {
@@ -12,5 +14,8 @@ module.exports = {
             }
         ]
     },
-    mode: "development"
+    plugins: [
+        new babelMinify()
+    ],
+    // mode: "development"
 };

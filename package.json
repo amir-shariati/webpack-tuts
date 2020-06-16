@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-minify-webpack-plugin": "^0.3.1",
     "css-loader": "^3.6.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
