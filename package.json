@@ -6,6 +6,8 @@
   "scripts": {
     "build": "webpack",
     "buildw": "npm run build -- --watch",
+    "developmnet": "webpack-dev-server --config webpack.dev.js",
+    "production": "webpack --config webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -26,5 +28,8 @@
     "webpack-cli": "^3.3.11",
     "webpack-manifest-plugin": "^2.2.0",
     "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
   }
 }
