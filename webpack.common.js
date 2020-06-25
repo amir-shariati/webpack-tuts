@@ -48,6 +48,5 @@ module.exports = {
     plugins: [
         // new babelMinify()
     ],
-    mode: "development",
-    devtool: 'inline-source-map'
+
 };
